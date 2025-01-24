@@ -1,11 +1,11 @@
 import requests,json,telebot,random
 from telebot import *
-tok=""#توكن بوتك
+tok="6772979678:AAEk_L_jVzIZ1IjtYsby5WzaTt6Nmij4HO0"#توكن بوتك
 bot=telebot.TeleBot(tok)
 @bot.message_handler(commands=['start'])
 def run(message):
 	key = types.InlineKeyboardMarkup()
-	back=types.InlineKeyboardButton(text='قـنـاة الـبـوت </>', url='https://t.me/YRWSYY')
+	back=types.InlineKeyboardButton(text='قـنـاة الـبـوت </>', url='https://t.me/paivak')
 	key.row_width = 1
 	key.add(back)
 	first_name = message.from_user.first_name
